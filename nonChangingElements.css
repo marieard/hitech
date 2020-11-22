@@ -13,6 +13,10 @@ body{
   display: flex; /*important*/
   align-items: center; /*important*/
   padding: 5px 40px 5px 40px;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 /* the navigation bar text container */
 .nav-text {
