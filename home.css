@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+/*Row*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*Row*/
+
+
+
+
+
+/*Section One*/
+.sectionOne .column {
+  float: left;
+  padding: 100px;
+}
+
+.sectionOne .left {
+  width: 60%;
+  height: 80vh;
+  padding: 90px;
+  padding-left: 10vw;
+  padding-top: 8vw;
+}
+.sectionOne .right {
+  width: 40%;
+  height: 80vh;
+  align-items: center;
+  padding: 0;
+}
+
+.sectionOne .right img {
+  height: 80%;
+  display: flex;
+  align-self: center;
+  padding-top: 20%;
+}
+
+.sectionOne h1 {
+  font-weight: 700;
+  font-size: 60px;
+}
+.sectionOne p{
+  font-weight: 500;
+  font-size: 20px;
+}
+/*Section One*/
+
+
+
+
+/*Section Two*/
+.sectionTwo {
+  height: 40vh;
+}
+
+.sectionTwo .column {
+  float: left;
+  padding: 60px 60px 50px 60px;
+  text-align: center;
+}
+
+.sectionTwo .left {
+ width: 50%;
+ height: 40vh;
+ padding-left: 120px;
+}
+
+.sectionTwo .right {
+ width: 50%;
+ height: 40vh;
+ padding-right: 120px;
+}
+.sectionTwo h1{
+  font-weight: 500;
+  font-size: 80px;
+  color: #F2B400
+}
+.sectionTwo p{
+  font-size: 20px;
+  color: #ffffff
+}
+/*Section Two*/
+
+
+
+
+/*Section Three*/
+.sectionThree {
+  height: 130vh;
+  text-align: center;
+}
+
+.sectionThree .row{
+  padding: 2vh 10vh 2vh 30vh;
+}
+
+.sectionThree .column {
+  float: left;
+  height: 60vh;
+  border: 1px solid black;
+  text-align: center;
+  width: calc(31.33% - 6px);
+  margin: 2%;
+}
+.sectionThree .left {
+  width: 20%;
+  padding: 60px 80px 60px 80px;
+  padding-top: 4vw;
+  margin: 2vh 2vh 2vh 40vh;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px rgba(40, 54, 71, 0.41);
+}
+.sectionThree .middle {
+  width: 20%;
+  padding: 60px 80px 60px 80px;
+  padding-top: 4vw;
+  margin: 2vh;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px rgba(40, 54, 71, 0.41);
+}
+.sectionThree .right {
+  width: 20%;
+  padding: 60px 80px 60px 80px;
+  padding-top: 4vw;
+  margin: 2vh;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px rgba(40, 54, 71, 0.41);
+}
+
+.sectionThree img {
+  height: 40%;
+  display: flex;
+  align-self: center;
+  padding-left: 3vh;
+
+}
+
+.sectionThree h1 {
+  font-size: 50px;
+  font-weight: 900;
+  padding: 80px 60px 0px 60px;
+}
+
+.sectionThree h2 {
+  font-size: 28px;
+}
+
+.sectionThree .title{
+  margin: 10vh 60vh 10vh 60vh;
+}
+
+.sectionThree .button{
+  float: left;
+}
+/*Section Three*/
+
+/*Section Four*/
+.sectionFour {
+  height: 55vh;
+}
+/*Section Four*/
+
+
+.sectionFive {
+  height: 100vh;
+}
+
+.sectionSix {
+  height: 40vh;
+}
+
+.sectionSeven {
+  height: 410vh;
+}
+
+.sectionEight {
+  height: 210vh;
+}
+
+.sectionNine {
+ height: 40vh;
+}
+
+
+.footer {
+ height: 30vh;
+}
+
+
+.row {
+  border: 1px solid black;
+  margin: 0;
+}
+
+.buttonContainer .column {
+  float: left;
+  height: 100%;
+  border: 1px solid black;
+  text-align: center;
+  width: calc(31.33% - 6px);
+  margin: 2%;
+}
+
+.buttonContainer .left {
+  width: 20%;
+  padding: 0;
+  margin: 2vh 2vh 2vh 40vh;
+  border: none;
+  box-shadow: none;
+}
+
+.buttonContainer .middle, .buttonContainer .right {
+  width: 20%;
+  padding: 0;
+  margin: 2vh;
+  border: none;
+  box-shadow: none;
+}
