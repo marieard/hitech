@@ -173,11 +173,11 @@
   font-size: 24px;
   font-weight: 500;
   color: white;
-  margin: 20vh 18vh 4vh 24vh;
+  margin: 20vh 16vh 4vh 24vh;
 }
 
 .sectionFour p {
-  font-size: 18px;
+  font-size: 16px;
   color: #F2B400;
   margin-left: 24vh;
 }
@@ -210,10 +210,73 @@
 
 
 
-
+/*Section Five*/
 .sectionFive {
   height: 100vh;
 }
+
+.sectionFive {
+  height: 100vh;
+  text-align: center;
+}
+
+.sectionFive .row{
+  padding: 2vh 10vh 2vh 30vh;
+}
+
+.sectionFive .column {
+  float: left;
+  height: 70vh;
+  border: 1px solid black;
+  text-align: center;
+  width: calc(31.33% - 6px);
+  margin: 2%;
+}
+
+.sectionFive .left {
+  width: 20%;
+  padding: 20px 30px 20px 30px;
+  padding-top: 2vw;
+  margin: 2vh 2vh 2vh 40vh;
+  text-align: center;
+}
+
+.sectionFive .middle {
+  width: 20%;
+  padding: 20px 30px 20px 30px;
+  padding-top: 2vw;
+  margin: 2vh;
+  text-align: center;
+}
+
+.sectionFive .right {
+  width: 20%;
+  padding: 20px 30px 20px 30px;
+  padding-top: 2vw;
+  margin: 2vh;
+  text-align: center;
+}
+
+.sectionFive img {
+  height: 30%;
+  display: flex;
+  align-self: center;
+  padding-left: 6vh;
+  margin-bottom: 2vh;
+}
+
+.sectionFive h2 {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 40px 60px 0px 60px;
+}
+
+.sectionFive button {
+  margin: 2vh 2vh 2vh 93vh;
+  height: auto;
+}
+/*Section Five*/
+
 
 .sectionSix {
   height: 40vh;
