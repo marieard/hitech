@@ -220,8 +220,8 @@
   text-align: center;
 }
 
-.sectionFive .row{
-  padding: 2vh 10vh 2vh 30vh;
+.sectionFive .row {
+  padding: 0;
 }
 
 .sectionFive .column {
@@ -230,14 +230,17 @@
   border: 1px solid black;
   text-align: center;
   width: calc(31.33% - 6px);
-  margin: 2%;
+}
+
+.sectionFive .columnContainer {
+  margin: auto;
 }
 
 .sectionFive .left {
   width: 20%;
   padding: 20px 30px 20px 30px;
   padding-top: 2vw;
-  margin: 2vh 2vh 2vh 40vh;
+  margin: 2vh 2vh 2vh 18%;
   text-align: center;
 }
 
@@ -253,7 +256,7 @@
   width: 20%;
   padding: 20px 30px 20px 30px;
   padding-top: 2vw;
-  margin: 2vh;
+  margin: 2vh 18% 2vh 2vh;
   text-align: center;
 }
 
@@ -266,14 +269,13 @@
 }
 
 .sectionFive h2 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 700;
-  padding: 40px 60px 0px 60px;
+  padding: 40px 40px 0px 40px;
 }
 
 .sectionFive button {
-  margin: 2vh 2vh 2vh 93vh;
-  height: auto;
+  margin: auto;
 }
 /*Section Five*/
 
