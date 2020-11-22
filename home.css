@@ -154,7 +154,7 @@
 }
 
 .sectionThree .title{
-  margin: 5vh 60vh 10vh 60vh;
+  margin: 10vh 60vh 10vh 60vh;
 }
 
 .sectionThree .button{
@@ -212,7 +212,7 @@
 .buttonContainer .left {
   width: 20%;
   padding: 0;
-  margin: 2vh 2vh 2vh 40vh;
+  margin: 4vh 2vh 2vh 40vh;
   border: none;
   box-shadow: none;
 }
@@ -220,7 +220,7 @@
 .buttonContainer .middle, .buttonContainer .right {
   width: 20%;
   padding: 0;
-  margin: 2vh;
+  margin: 4vh 2vh 2vh 2vh;
   border: none;
   box-shadow: none;
 }
