@@ -169,15 +169,42 @@
   height: 55vh;
 }
 
-.sectionFour h2{
-  font-size: 30px;
-  font-weight: 700;
-  padding: 40px 60px 0px 80px;
+.sectionFour h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  margin: 20vh 18vh 4vh 24vh;
 }
 
+.sectionFour p {
+  font-size: 18px;
+  color: #F2B400;
+  margin-left: 24vh;
+}
 
+.sectionFour .column {
+  float: left;
+  height: 55vh;
+  border: 1px solid black;
+  text-align: left;
+}
 
+.sectionFour .left {
+  width: 70%;
+  height: 55vh;
+}
 
+.sectionFour .right {
+  width: 30%;
+  height: 55vh;
+}
+
+.sectionFour img {
+  height: 115%;
+  display: flex;
+  align-self: center;
+  padding-left: 8vh;
+}
 /*Section Four*/
 
 
