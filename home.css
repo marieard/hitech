@@ -113,7 +113,7 @@
   border: none;
   text-align: center;
   width: calc(31.33% - 6px);
-  margin: 5%;
+  margin: 3%;
 }
 .sectionThree .left {
   width: 20%;
@@ -175,19 +175,20 @@
   font-size: 24px;
   font-weight: 500;
   color: white;
-  margin: 20vh 16vh 4vh 24vh;
+  margin: 17vh 22vh 4vh 4vh;
+  text-align: justify;
 }
 
 .sectionFour p {
   font-size: 16px;
   color: #F2B400;
-  margin-left: 24vh;
+  margin-left: 4vh;
 }
 
 .sectionFour .column {
   float: left;
   height: 55vh;
-  border: 1px solid black;
+  border: none;
   text-align: left;
 }
 
@@ -205,7 +206,7 @@
   height: 115%;
   display: flex;
   align-self: center;
-  padding-left: 8vh;
+  padding-left: 7vw;
 }
 /*Section Four*/
 
