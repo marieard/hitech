@@ -315,9 +315,11 @@
   margin-top: 15vh;
 }
 
-.sectionSix .button {
+.sectionSix button {
   float: left;
-  width: 15%;
+  background: #283648;
+  color: white;
+  border-color: #283648;
 }
 
 .sectionSix h2 {
@@ -401,8 +403,14 @@
  height: 40vh;
 }
 
-.sectionNine h1 h2 button {
+.sectionNine .row {
   text-align: center;
+}
+
+.sectionNine button {
+  background: #283648;
+  color: white;
+  border-color: #283648;
 }
 /*Section Nine*/
 
