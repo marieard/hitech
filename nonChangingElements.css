@@ -62,6 +62,11 @@ button:hover {
   color: #283648;
   transition-duration: .2s;
 }
+.button2 {
+  background: #283648;
+  color: white;
+  border-color: #283648;
+}
 /* end of button */
 
 p {

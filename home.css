@@ -17,7 +17,6 @@
   padding-top: 12vh;
 }
 
-
 /*Section One*/
 .sectionOne .column {
   float: left;
@@ -101,11 +100,11 @@
 .sectionThree {
   height: 100%;
   text-align: center;
+  padding: 10vh 0 10vh 0;
 }
 
 .sectionThree .row{
   padding: 0 10% 0 10%;
-  margin-bottom: 10vh;
   border: none;
 }
 
@@ -136,6 +135,7 @@
 .sectionThree h1 {
   font-size: 40px;
   font-weight: 700;
+  margin: 0 0 10vh 0;
 }
 
 .sectionThree h2 {
@@ -143,7 +143,7 @@
 }
 
 .sectionThree button{
-  margin-top: 3vh;
+  margin-top: 5vh;
 }
 /*Section Three*/
 
@@ -151,7 +151,7 @@
 
 /*Section Four*/
 .sectionFour {
-  height: 55vh;
+  height: 100%;
 }
 
 .sectionFour h2 {
@@ -177,12 +177,10 @@
 
 .sectionFour .left {
   width: 70%;
-  height: 55vh;
 }
 
 .sectionFour .right {
   width: 30%;
-  height: 55vh;
 }
 
 .sectionFour img {
@@ -198,70 +196,40 @@
 
 /*Section Five*/
 .sectionFive {
-  height: 100vh;
+  height: 100%;
+  text-align: center;
+  padding: 10vh 0 10vh 0;
 }
 
-.sectionFive {
-  height: 100vh;
-  text-align: center;
+.sectionFive h2 {
+  margin-top: 0;
+  font-size: 24px;
 }
 
 .sectionFive .row {
-  padding: 0;
+  padding: 0 10% 0 10%;
+  border: none;
 }
 
 .sectionFive .column {
   float: left;
-  height: 70vh;
   border: none;
-  text-align: center;
-  width: calc(31.33% - 6px);
-}
-
-.sectionFive .columnContainer {
-  margin: auto;
-}
-
-.sectionFive .left {
-  width: 20%;
-  padding: 20px 30px 20px 30px;
-  padding-top: 2vw;
-  margin: 2vh 2vh 2vh 18%;
-  text-align: center;
-}
-
-.sectionFive .middle {
-  width: 20%;
-  padding: 20px 30px 20px 30px;
-  padding-top: 2vw;
-  margin: 2vh;
-  text-align: center;
-}
-
-.sectionFive .right {
-  width: 20%;
-  padding: 20px 30px 20px 30px;
-  padding-top: 2vw;
-  margin: 2vh 18% 2vh 2vh;
-  text-align: center;
+  height: 100%;
+  width: 33.33%;
+  margin: 0;
+  padding: 2%;
 }
 
 .sectionFive img {
-  height: 30%;
+  width: 70%;
   display: flex;
   align-self: center;
-  padding-left: 6vh;
+  margin: auto;
   margin-bottom: 2vh;
 }
 
-.sectionFive h2 {
-  font-size: 28px;
-  font-weight: 700;
-  padding: 40px 40px 0px 40px;
-}
-
-.sectionFive button {
-  margin: auto;
+.sectionFive button{
+  margin-top: 3vh;
 }
 /*Section Five*/
 
@@ -302,9 +270,6 @@
 
 .sectionSix button {
   float: left;
-  background: #283648;
-  color: white;
-  border-color: #283648;
   width: 20%;
 }
 
@@ -406,9 +371,6 @@
 }
 
 .sectionNine button {
-  background: #283648;
-  color: white;
-  border-color: #283648;
   display: block;
   margin: auto;
 }
