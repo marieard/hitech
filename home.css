@@ -282,23 +282,129 @@
 }
 /*Section Five*/
 
-
+/*Section Six*/
 .sectionSix {
   height: 40vh;
 }
 
-.sectionSeven {
-  height: 410vh;
+.sectionSix .row {
+  float: left;
+  width: 100%;
+  display: inline;
 }
+
+.sectionSix .column {
+  border: 1px solid black
+}
+.sectionSix .left {
+  float: left;
+  width: 45%;
+  padding: 8vh 4vw 0vh 11vw;
+}
+
+.sectionSix .email {
+  float: left;
+  width: 40%;
+}
+
+.sectionSix input {
+  width: 100%;
+  border: white;
+  border-radius: 1.2vh;
+  padding: 1vh 10vw 1vh 2vw;
+  margin-top: 15vh;
+}
+
+.sectionSix .button {
+  float: left;
+  width: 15%;
+}
+
+.sectionSix h2 {
+  font-size: 1.5rem;
+  color: #F2B400;
+}
+/*Section Six*/
+
+
+/*Section Seven*/
+.sectionSeven {
+  height: 470vh;
+  text-align: center;
+}
+
+.sectionSeven .row{
+  padding: 0;
+}
+
+.sectionSeven .column {
+  float: left;
+  padding: 80px;
+  border: 1px solid black;
+  text-align: left;
+}
+
+.sectionSeven .detail1 .detail3 .left {
+  width: 50%;
+  height: 100%;
+}
+
+.sectionSeven .detail1 .detail3 .right {
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  padding: 0;
+}
+
+
+.sectionSeven img {
+  height: 60%;
+  display: flex;
+  align-self: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.sectionSeven button {
+}
+
+.sectionSeven h1 {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 0px 5vw 5px 5vw;
+}
+
+.sectionSeven .title{
+  margin: 7vh 30vh 10vh 30vh;
+}
+
+.sectionSeven p{
+  font-size: 16px;
+  color: black;
+}
+
+.sectionSeven h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+
+/*Section Seven*/
+
 
 .sectionEight {
   height: 210vh;
 }
 
+/*Section Nine*/
 .sectionNine {
  height: 40vh;
 }
 
+.sectionNine h1 h2 button {
+  text-align: center;
+}
+/*Section Nine*/
 
 .footer {
  height: 30vh;
