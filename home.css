@@ -291,56 +291,52 @@
 
 .sectionSeven .column {
   float: left;
-  padding: 80px;
+  padding: 0px;
   padding-left: 5vw;
+  border: 1px solid black;
 }
-.sectionSeven .detail1 .detail3 .left {
+.detail1 .left, .detail3 .left{
   width: 50%;
   height: 100%;
   align-items: center;
   padding: 0;
 }
-.sectionSeven .detail1 .detail3 .right {
+.detail1 .right, .detail3 .right {
   width: 50%;
   height: 100%;
-  padding-right: 20vh;
 }
-.sectionSeven .detail1 .detail3 .left img {
-  width: 50%;
+.detail1 .left img, .detail3 .left img {
+  max-width: 50%;
+  max-height: 50%;
   display: flex;
   align-self: center;
-  padding-top: 5%;
-  padding-bottom: 10%;
-  margin-left: 40%;
+  margin: auto;
 }
 
-.first-part .detail2 .left {
+.detail2 .left {
   width: 50%;
   height: 100%;
 }
 
-.first-part .detail2 .right {
+.detail2 .right {
   width: 50%;
   height: 100%;
   align-items: center;
   padding: 0;
 }
-.first-part .detail2 .right img {
-  width: 80%;
+.detail2 .right img {
+  max-width: 50%;
+  max-height: 50%;
   display: flex;
   align-self: center;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  margin: auto;
 }
 
 .sectionSeven h1 {
   font-size: 40px;
   font-weight: 700;
-  padding: 0px 5vw 5px 5vw;
-}
-
-.sectionSeven .title{
   margin: 7vh 30vh 10vh 30vh;
+  text-align: center;
 }
 
 .sectionSeven p{
