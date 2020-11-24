@@ -287,49 +287,55 @@
 
 .sectionSeven .row{
   padding: 0;
+  margin-bottom: 10vh;
 }
 
 .sectionSeven .column {
   float: left;
   padding: 0px;
-  padding-left: 5vw;
-  border: 1px solid black;
+  border: none;
 }
+
 .detail1 .left, .detail3 .left{
   width: 50%;
   height: 100%;
   align-items: center;
-  padding: 0;
+  padding: 0 1vw 0 10vw;
 }
+
 .detail1 .right, .detail3 .right {
   width: 50%;
   height: 100%;
+  padding-right: 10vw;
 }
+
 .detail1 .left img, .detail3 .left img {
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 60%;
+  max-height: 60%;
   display: flex;
-  align-self: center;
-  margin: auto;
+  align-self: left;
+  margin: 0;
 }
 
 .detail2 .left {
   width: 50%;
   height: 100%;
+  padding: 0 1vw 0 10vw;
 }
 
 .detail2 .right {
   width: 50%;
   height: 100%;
-  align-items: center;
+  align-items: right;
   padding: 0;
+  margin-left: auto;
 }
+
 .detail2 .right img {
   max-width: 50%;
   max-height: 50%;
   display: flex;
-  align-self: center;
-  margin: auto;
+  margin-left: 15vw;
 }
 
 .sectionSeven h1 {
