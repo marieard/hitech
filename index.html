@@ -21,7 +21,7 @@
   <div class="nav-bar">
     <img class="nav-logo" src="logo hitech.png" onclick="topPage()">
     <ul class="nav-text">
-      <li href="about.html" onclick="Service()">Service</li>
+      <li href="about.html" onclick="projectSummary()">Project</li>
       <li href="contact.html" onclick="aboutUs()">About us</li>
       <button href="projects.html" onclick="signUp()" >Sign up</button>
     </ul>
@@ -38,7 +38,7 @@
         <p>we explain in this part quickly our project and <br>What we want to do <br> Explain quickly why and how</p>
         <br>
         <br>
-        <button type="button" id="service">Discover more</button>
+        <button type="button" onclick="projectSummary()" id="service">Discover more</button>
       </div>
 
       <div class="column right">
@@ -60,7 +60,7 @@
     </div>
 
     <!-- project summary -->
-    <div class="sectionThree row" style="background-color: #ffffff">
+    <div class="sectionThree row" id="project" style="background-color: #ffffff">
 
       <h1>This is our project in a really quick summary </h1>
 
@@ -75,7 +75,7 @@
             <p>here's a short text of a few lines that simply explains what this part of the project is all about and makes the client want to click to learn more.</p>
           </div>
 
-          <button type="button" name="button" id="service">Discover more</button>
+          <button type="button" name="button" id="service" onclick="projectKit()">Discover starter kit</button>
         </div>
 
         <div class="column">
@@ -87,7 +87,7 @@
             <p>here's a short text of a few lines that simply explains what this part of the project is all about and makes the client want to click to learn more.</p>
           </div>
 
-          <button type="button" name="button" id="service">Discover more</button>
+          <button type="button" name="button" id="service" onclick="projectOnline()">Discover online courses</button>
         </div>
 
         <div class="column">
@@ -99,7 +99,7 @@
             <p>here's a short text of a few lines that simply explains what this part of the project is all about and makes the client want to click to learn more.</p>
           </div>
 
-          <button type="button" name="button" id="service">Discover more</button>
+          <button type="button" name="button" id="service" onclick="projectHotLine()">Discover hot line</button>
         </div>
 
       </div>
@@ -151,7 +151,7 @@
 
         </div>
 
-        <button type="button" name="button" id="contactUs" class="button2">Discover more</button>
+        <button type="button" name="button" id="contactUs" class="button2" onclick="projectKit()">Discover more</button>
 
 
 
@@ -163,18 +163,18 @@
       <div class="column left">
         <h1>Contact us to learn more</h1>
         <p>Enter your email address if you want to follow us or call the hot line</p>
-        <h2>+0 12 34 56 78 99</h2>
+        <h2 id="kit">+0 12 34 56 78 99</h2>
       </div>
 
       <div class="column right">
         <input class="email" type="text" placeholder="Email address" name="email" required>
-        <button type="button" name="Sign up" class="button2">Sign up</button>
+        <button type="button" name="Sign up" class="button2" id="contactUs">Sign up</button>
       </div>
 
     </div>
 
     <!--project in detail-->
-    <div class="sectionSeven row" style="background-color: #ffffff" id="service">
+    <div class="sectionSeven row" style="background-color: #ffffff" id="project">
 
         <h1>simple presentation of each part of the product and photos of the prototype</h1>
 
@@ -189,8 +189,8 @@
           <br>
           <p>we explain in this part quickly our project and <br>What we want to do <br> Explain quickly why and how <br>we explain in this part quickly our project and <br>What we want to do <br> Explain quickly why and how </p>
           <br>
-          <br>
-          <button type="button" id="service">Discover more</button>
+          <br id="online">
+          <button type="button" onclick="signUp()">Sign up</button>
         </div>
 
       </div>
@@ -206,7 +206,7 @@
           <p>we explain in this part quickly our project and <br>What we want to do <br> Explain quickly why and how. <br>we explain in this part quickly our project and <br>What we want to do <br> Explain quickly why and how </p>
           <br>
           <br>
-          <button type="button" id="service">Discover more</button>
+          <button type="button" onclick="signUp()"  id="hotline">Sign up</button>
         </div>
 
         <div class="column right">
@@ -230,7 +230,7 @@
           <p>we explain in this part quickly our project and <br>What we want to do <br> Explain quickly why and how <br>we explain in this part quickly our project and <br>What we want to do <br> Explain quickly why and how </p>
           <br>
           <br>
-          <button type="button" id="service">Discover more</button>
+          <button type="button" onclick="signUp()">Sign up</button>
         </div>
 
       </div>
@@ -305,7 +305,7 @@
     <div class="sectionNine" style="background-color: rgba(40, 54, 72, 0.12)">
       <h1>Interested in learning tech ?</h1>
       <h2>+0 12 34 56 78 99</h2>
-      <button type="button" name="Sign Up" class="button2">Sign up</button>
+      <button type="button" name="Sign Up" class="button2" onclick="signUp()">Sign up</button>
     </div>
 
     <!--footer-->
