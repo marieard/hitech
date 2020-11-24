@@ -35,14 +35,12 @@
   width: 40%;
   height: 80vh;
   align-items: center;
-  padding: 0;
+  padding: 15vh 20vw 15vh 2vw;
 }
 
 .sectionOne .right img {
-  height: 80%;
+  height: 100%;
   display: flex;
-  padding-top: 20%;
-  padding-left: 10%
 }
 
 .sectionOne h1 {
@@ -132,14 +130,18 @@
   margin: auto;
 }
 
-.sectionThree h1 {
-  font-size: 40px;
-  font-weight: 700;
-  margin: 0 0 10vh 0;
-}
-
 .sectionThree h2 {
-  font-size: 24px;
+  font-size: 1.8em;
+  font-weight: 500;
+  margin: 0 10% 10vh 10%;
+}
+.sectionThree p {
+  margin: 5% 0 5% 0;
+}
+.sectionThree .column h2 {
+  font-size: 1.4em;
+  font-weight: 700;
+  margin: 2vh 10% 2vh 10%;
 }
 
 .sectionThree button{
