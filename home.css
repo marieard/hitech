@@ -27,9 +27,7 @@
 .sectionOne .left {
   width: 60%;
   height: 80vh;
-  padding: 10vh;
-  padding-left: 12vw;
-  padding-top: 15vh;
+  padding: 15vh 10vw 10vh 10vw;
 }
 .sectionOne .right {
   width: 40%;
@@ -50,6 +48,8 @@
 .sectionOne p{
   font-weight: 500;
   font-size: 18px;
+  padding-right: 12vw;
+  text-align: justify;
 }
 /*Section One*/
 
