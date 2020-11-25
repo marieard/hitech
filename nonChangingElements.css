@@ -59,7 +59,7 @@ button {
 }
 button:hover {
   border: 2px solid #283648;
-  background: white;
+  background: rgba(56, 20, 235, 0);
   color: #283648;
   transition-duration: .2s;
 }

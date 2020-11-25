@@ -163,7 +163,7 @@
   font-size: 24px;
   font-weight: 500;
   color: white;
-  margin: 17vh 22vh 4vh 4vh;
+  margin: 22vh 22vh 4vh 4vh;
   text-align: justify;
 }
 
@@ -180,19 +180,19 @@
   text-align: left;
 }
 
-.sectionFour .left {
+.sectionFour .right {
   width: 70%;
 }
 
-.sectionFour .right {
+.sectionFour .left {
   width: 30%;
+  padding: 7% 0 0 10%;
 }
 
 .sectionFour img {
-  height: 115%;
+  width: 60%;
   display: flex;
   align-self: center;
-  padding-left: 7vw;
 }
 /*Section Four*/
 
