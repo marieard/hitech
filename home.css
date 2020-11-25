@@ -21,13 +21,13 @@
 .sectionOne .column {
   float: left;
   padding: 10vh;
-  padding-top: 15%;
+  padding-top: 12%;
 }
 
 .sectionOne .left {
   width: 60%;
   height: 80vh;
-  padding: 15vh 10vw 10vh 10vw;
+  padding: 13vh 10vw 10vh 12vw;
 }
 .sectionOne .right {
   width: 40%;
@@ -47,9 +47,10 @@
 }
 .sectionOne p{
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.3em;
   padding-right: 13vw;
   text-align: left;
+  line-height: 140%;
 }
 /*Section One*/
 
@@ -137,9 +138,11 @@
 }
 .sectionThree p {
   margin: 5% 0 5% 0;
+  font-size: 1.1em;
+  line-height: 120%;
 }
 .sectionThree .column h2 {
-  font-size: 1.4em;
+  font-size: 1.6em;
   font-weight: 700;
   margin: 2vh 10% 2vh 10%;
 }
