@@ -320,6 +320,10 @@
   border: none;
 }
 
+.sectionSeven span {
+  color: #F2B400;
+}
+
 .detail1 .left, .detail3 .left{
   width: 50%;
   height: 100%;
@@ -334,12 +338,14 @@
 }
 
 .detail1 .left img, .detail3 .left img {
-  max-width: 70%;
-  max-height: 70%;
+  max-width: 80%;
+  max-height: 50%;
   display: flex;
   align-self: left;
-  margin: 0;
 }
+ .sectionSeven img {
+   margin: 0;
+ }
 
 .detail2 .left {
   width: 50%;
@@ -356,10 +362,10 @@
 }
 
 .detail2 .right img {
-  max-width: 60%;
+  max-width: 65%;
   max-height: 70%;
   display: flex;
-  margin-left: 10vw;
+  margin-left: 8vw;
 }
 
 .sectionSeven h1 {
