@@ -23,8 +23,7 @@
     <ul class="nav-text">
       <li href="about.html" onclick="projectSummary()">Project</li>
       <li href="contact.html" onclick="aboutUs()">Team</li>
-      <li href="contact.html" onclick="">Hotline</li>
-      <li href="contact.html" onclick="">Download</li>
+      <li href="contact.html" onclick="signUp()">Hotline</li>
       <button href="projects.html" onclick="signUp()" >Sign up</button>
     </ul>
   </div>
@@ -53,17 +52,17 @@
     <div class="sectionTwo row" style="background-color: #283648">
       <div class="column left">
         <h1>19 %</h1>
-        <p>Of the European population is <br>above 65 years old</p>
+        <p id="project">Of the European population is <br>above 65 years old</p>
       </div>
       <div class="column right">
         <h1>44 %</h1>
-        <p>Of seniors in Europe have <br>a smartpone</p>
+        <p id="project">Of seniors in Europe have <br>a smartpone</p>
       </div>
 
     </div>
 
     <!-- project summary -->
-    <div class="sectionThree row" id="project" style="background-color: #ffffff">
+    <div class="sectionThree row"  style="background-color: #ffffff">
 
       <h2>Hi!Tech is a subscription to a newspaper that will teach you everything you need <br>to know about using a computer or a smartphone. <br>We start with the basics to make you become a tech pro! </h2>
 
@@ -194,13 +193,13 @@
           <br>
           <p>Offline Start Kit to get you started and find your access to our online ressource. All the basics are clearely explained and illustrated. Once on our website, create your account and define a password: you are about to start your journey with us!</p>
           <br>
-          <br id="online">
+          <br>
           <!--<button type="button" onclick="signUp()">Sign up</button>-->
         </div>
 
       </div>
 
-      <br>
+      <br id="online">
       <br>
       <br>
 
@@ -221,7 +220,7 @@
 
       <br>
       <br>
-      <br>
+      <br id="hotline">
 
       <div class="detail3 row">
 
@@ -317,7 +316,7 @@
     <div class="footer row" style="background-color: #ffff">
       <div class="column small"></div>
       <div class="column big">
-          <img src="logo-01.svg" alt="" width="100">
+          <img src="logo-01.svg" alt="" width="100" onclick="topPage()">
           <br>
           <p>Terms and Conditions</p>
           <p>© Hi! Tech GmbH, 2020</p>
@@ -332,17 +331,17 @@
         <div class="txt-container">
           <h3>Our platform</h3>
           <h5>Pricing</h5>
-          <h5>About</h5>
-          <h5>Contact</h5>
+          <h5 onclick="aboutUs()">About</h5>
+          <h5 onclick="signUp()">Contact</h5>
           <h5>FAQ</h5>
         </div>
       </div>
       <div class="column big">
         <div class="txt-container">
-          <h3>Our service</h3>
-          <h5>Starter kit</h5>
-          <h5>Online courses</h5>
-          <h5>Hot line</h5>
+          <h3 onclick="projectSummary()">Our service</h3>
+          <h5 onclick="projectKit()">Starter kit</h5>
+          <h5 onclick="projectOnline()">Online courses</h5>
+          <h5 onclick="signUp()">Hot line</h5>
           <h5>Profile</h5>
         </div>
       </div>
