@@ -35,6 +35,7 @@ body{
   list-style-type: none;
   color: black;
   font-size: 1rem;
+  font-weight: lighter;
   margin-right: 50px;
 }
 /* the navigation bar logo */
